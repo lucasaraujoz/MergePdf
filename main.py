@@ -15,7 +15,7 @@ class App():
     def screen(self):
         self.root.title("Merge Pdfs")
         self.root.geometry("300x150")
-        #self.root.iconbitmap(r'favicon.ico')
+        self.root.iconbitmap(r'favicon.ico')
         self.root.resizable(False, False)
         self.root.configure(background = "#76D7C4")
     def buttons(self):
